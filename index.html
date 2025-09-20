@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 Task Manager</h1>
+  <form id="task-form">
+    <input type="text" id="task-input" placeholder="Enter a task" required>
+    <button type="submit">Add Task</button>
+  </form>
+  <div id="task-list"></div>
+  <div id="progress-container">
+    <label>Progress:</label>
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <span id="progress-text">0%</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
